@@ -1,0 +1,178 @@
+#title
+{
+background-color: #ff4c68;
+color: #fff;
+}
+h1
+{
+  font-style: "Montserrat-Black";
+  /* font-family: "Montserrat-Black" */
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+body
+{
+  background-color: "Montserrat-Black";
+}
+.navbar
+{
+  padding: 0 0 4.5rem 0;
+}
+.nav-item
+{
+  padding: 0px 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navbar-brand
+{
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+.btn
+{
+  margin: 5% 3% 5% 0%;
+}
+.imagelove
+{
+ size: 60%;
+ transform: rotate(30deg);
+ /* position: absolute; */
+}
+
+/* FEATURES*/
+#features
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.text
+{
+  text-align: center;
+}
+
+h3
+{
+  font-style: "Montserrat-bold";
+}
+
+p
+{
+  color: #8f8f8f;
+}
+
+/* icon */
+.fas
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* pseudo code for hovering */
+.fas:hover
+{
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS */
+#testimonials
+{
+  text-align: center;
+  /* padding: 7% 15%; hatana pda qki carousel k button bahar krne thay */
+  background-color:#ff4c68;
+  color: #fff;
+}
+
+h3
+{
+  font-style: "Montserrat-bold";
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.dogimage
+{
+ width:10%;
+ border-radius: 100%;
+ margin:20px;
+ position: absolute;
+ z-index: 0px;
+}
+
+#press
+{
+background-color:#ff4c68;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.pressimage
+{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+ padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.column
+{
+  padding:3% 2%;
+}
+
+/* responsiveness */
+
+@media screen (max 1028px)
+{
+  #title
+  {
+    align-items: center;
+  }
+
+  .imagelove
+  {
+  position: static;
+  transform: rotate(0deg)
+  }
+}
+
+#cta
+  {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 10% 25%;
+  font-family: "Montserrat-Black"
+  font-size: 3.5rem;
+  line-height:1.5;
+  }
+
+  /* footer section */
+
+  #footer
+  {
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  .icon
+  {
+    margin: 20px 10px;
